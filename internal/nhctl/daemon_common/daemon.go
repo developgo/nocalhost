@@ -48,6 +48,7 @@ type PortForwardProfile struct {
 	Role       string             `json:"role"`
 	LocalPort  int                `json:"localPort"`
 	RemotePort int                `json:"remotePort"`
+	Nid        string             `json:"nid"`
 }
 
 type DaemonServerStatusResponse struct {
